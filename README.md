@@ -4,7 +4,8 @@
 
 The [Wetterich equation](https://doi.org/10.1016/0370-2693(93)90726-X) is the exact flow equation for the effective average action $\Gamma_k$ of a quantum field theory as a function of the coarse-graining scale $k$:
 
-$$\partial_t \Gamma_k = \frac{1}{2}\operatorname{Tr}\left[\left(\Gamma_k^{(2)} + R_k\right)^{-1}\partial_t R_k\right], \qquad t = \ln\frac{k}{\Lambda}$$
+$$\partial_t \Gamma_k = \frac{1}{2}\text{Tr}\left[\left(\Gamma_k^{(2)} + R_k\right)^{-1}\partial_t R_k\right], \qquad t = \ln\frac{k}{\Lambda}$$
+$$
 
 This repo solves it for a single-component scalar field in $d=3$ — the universality class of the 3D Ising model — in two independent ways:
 
